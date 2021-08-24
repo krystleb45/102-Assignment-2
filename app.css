@@ -1,0 +1,77 @@
+body{
+    background-color: white;
+}
+img{
+    max-width: 100%;
+}
+.img-container{
+    background-color: white;
+    width: 200px;
+}
+header{
+    background-image: url(../Images/HarryPotter.png);
+    height:40vh;
+    background-size: cover;
+    background-position: center center;
+}
+/*table*/
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 20px;
+}
+tr{border: 1px solid black;
+    border-color: black;
+}
+
+td{
+    
+    padding: 10px;
+    text-align: center;
+    
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+td:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+th{
+    text-transform: uppercase;
+}
+.table-multi-cells{
+    color: red;
+}
+/*form*/
+label{
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+.form-control{
+    padding: 10px;
+    margin: 10px;
+}
+input,select{
+    font-size: 16px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 3px;
+    border: none;
+    background-color: blanchedalmond;
+}
+.btn{
+    display: block;
+    background-color: bisque;
+    color: black;
+    width: 100px;
+    margin: 0 auto;
+}
